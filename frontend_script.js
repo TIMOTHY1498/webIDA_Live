@@ -7,7 +7,7 @@ let rizin_session = null;
 let loaded_pe_functions = [];
 let selected_pe_function = null;
 
-let AI_TESTSERVER_LOCAL = "http://127.0.0.1:8000/chatwithAI"; // for local testing
+let AI_TESTSERVER_LOCAL = "https://larpimothy.pythonanywhere.com/chatwithAI"; // for local testing
 
 function rvaToOffset(pefile, rva) {
     if (rva === 0) return 0;
